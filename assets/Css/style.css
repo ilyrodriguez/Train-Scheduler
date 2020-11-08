@@ -18,21 +18,25 @@ body{
 }
 
 .card{
-    display: inline-block;
-    width: 100%; 
-    margin-inline-start: 50px; 
     border: none;
 }
 
 .card-header{
     background-color: #2d6076;
     color: white;
-    font-family: 'Sansita', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
 }
 
 tbody>tr>td {
     text-transform: capitalize;
     line-height: 1.5;
+}
+
+thead > tr {
+    line-height: 2;
+    font-size: 16px;
+    color: yellow;
 }
 
 #footer{
