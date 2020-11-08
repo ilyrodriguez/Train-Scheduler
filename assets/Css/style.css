@@ -39,6 +39,10 @@ thead > tr {
     color: yellow;
 }
 
+.card-body.px-5{
+    background-color: #eff1f3;
+}
+
 #footer{
     background-color: #343A40;
     font-size: 12px;
